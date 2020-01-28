@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:sandybrown;
+    background:url(images/nebula.jpg)
+
+}
+
+#content{
+    background-color:rgba(31, 37, 41, 0.753);
+    width: 65%;
+    margin: auto;
+    border-radius:5px;
+    padding:10px;
+}
+
+
+#main{
+    text-align:center;
+}
+
+#main_p{
+    text-align:center;
+}
+
+li{
+    list-style-type:none;
+    display:inline-block;
+    
+}
+
+a{
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom:2px solid transparent;
+}
+
+a:hover{
+    background-color:sandybrown;
+    color:black;
+}
