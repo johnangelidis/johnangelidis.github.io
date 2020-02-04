@@ -1,0 +1,46 @@
+/*
+img{
+    display:block;
+}
+*/
+
+/*Styles for everything */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-header{
+    background:lightpink;
+    padding:10px;
+}
+
+#main-content{
+    background:lightgrey;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+#main-footer{
+    background:lightcyan;
+    padding:10px;
+}
+
+.collof3{
+    background:lightgreen;
+    padding:10px;
+    
+}
+
+#special-col{
+    background:lightpink;
+}
+
+.collof3 h2{
+    color:darkblue;
+}
+
+.first-col{
+    background:skyblue;
+}
