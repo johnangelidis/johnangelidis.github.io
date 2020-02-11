@@ -1,0 +1,76 @@
+body{
+    background:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#form{
+    background:skyblue;
+    width:30%;
+    margin:auto;
+    border-radius:5px;
+    overflow:auto;
+}
+
+#main-header{
+    padding:5px;
+}
+
+#form h1{
+    text-align: center;
+}
+
+#labels{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5px;
+    text-align:right;
+}
+
+#textboxes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tax{
+    padding-right:60px;
+}
+
+button{
+    width:185px;
+    height:30px;
+}
+
+#button{
+    padding-left:126px;
+}
+
+#labels label{
+    padding:5px;
+}
+
+#textboxes input{
+    padding:5px;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+#sentence{
+    font-weight:bold;
+}

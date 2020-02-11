@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Assignment 5</title>
+    </head>
+    <body>
+        
+            <div id="form">
+                <section id="main-header">
+                    <h1>Learning JavaScript</h1>
+                </section>
+                <div id="content"> 
+                <section id="labels">
+                    <label>First Name:</label>
+                    <label>Last Name:</label>
+                    <label>Product Name:</label>
+                    <label>Product Price:</label>
+                    <label>Product Count:</label>
+                </section>
+                <section id="textboxes">
+                    <input type="text" id="first-name">
+                    <input type="text" id="last-name">
+                    <input type="text" id="product-name">
+                    <input type="text" id="product-price">
+                    <input type="text" id="product-count">
+                </section>
+            </div>
+                <div id="bottom">
+                    <section id="tax">
+                        <label>Tax: 0.07</label>
+                    </section>
+                    <section id="button">
+                        <button onclick="calculate()">Calculate</button>
+                    </section>
+                </div>
+            
+            <div id="result">
+                <p id="sentence"></p>
+                <p id="total"></p>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
