@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+    display:none;
+}
+
+.clicked{
+    background:red;
+}
+header{
+    background:#F2AD94;
+    text-align:center;
+    padding:5px;
+}
+
+#toggle-bar{
+    cursor:pointer;
+}
+
+#first-exercise{
+    cursor:pointer;
+}
+
+#second-exercise{
+    cursor:pointer;
+}
+.nav-items{
+    background:#F8F8F8;
+    text-align: center;
+}
+
+.nav-items:hover{
+    border-bottom: 3px solid red;
+}
+
+#exercise1{
+    background:#FDC7B9;
+    margin:auto;
+    
+}
+
+#exercise1{
+    padding-left:20px;
+}
+
+#exercise1 p{
+    padding-left:30px;
+}
+#exercise2{
+    background:#FDC7B9;
+    
+}
+.push{
+    margin-right:15px;
+}
+
+.gradient{
+    margin-left:130px;
+    width:80px;
+    height:300px;
+    background: rgb(255,0,0);
+background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+border-style:solid;
+}
+.gradient-25{
+    margin-left:130px;
+    width:80px;
+    height:300px;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
+    border-style:solid;
+}
+
+.gradient-50{
+    margin-left:130px;
+    width:80px;
+    height:300px;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    border-style:solid;
+}
+
+.gradient-75{
+    margin-left:130px;
+    width:80px;
+    height:300px;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 75%, rgba(255,0,0,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+    border-style:solid;
+}
+
+.gradient-100{
+    margin-left:130px;
+    width:80px;
+    height:300px;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 25%, rgba(255,0,0,1) 25%, rgba(255,0,0,1) 100%);
+    border-style:solid;
+}
+@media(min-width:900px){
+    #toggle-bar{
+        display:none;
+    }
+
+    #main-nav{
+        display:flex;
+        flex-direction: row;
+        
+        
+    }
+
+    .nav-items{
+        width:100%;
+    }
+
+    #exercise1{
+        padding-left:610px;
+    }
+
+    #exercise2{
+        padding-left:610px;
+    }
+}
