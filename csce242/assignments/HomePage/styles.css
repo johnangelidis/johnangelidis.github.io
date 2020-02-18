@@ -66,12 +66,13 @@ a{
 @media(min-width:900px){
     #assignments{
         display:flex;
-        flex-direction:row;
+        flex-wrap:wrap;
         margin:25px;
     }
 
     .assignment{
         height:350px;
+        
     }
 
     #exercises{
