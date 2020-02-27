@@ -103,12 +103,23 @@ body {
     color:#000;
     cursor:pointer;
 }
+
+#box{
+    --dim: 100px;
+    width: var(--dim);
+    height:var(--dim);
+    background:blue;
+    margin:20px auto;
+}
+
 /* Large Resolutions */
 @media(min-width:900px){
     #content {
         display:flex;
         flex-wrap:wrap;
     }
+
+    
 
     .example p {
         display:flex;

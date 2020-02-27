@@ -1,3 +1,4 @@
+let width = 100;
 function displayEmotion() {
     //gather all 3 pieces of information & write to console
     const firstName = document.getElementById("txt-first-name").value;
@@ -119,6 +120,15 @@ function doStuff(){
     }
 }
 
+function growBox(){
+    width+=10;
+    document.getElementById("box").style.setProperty('--dim', width+"px");
+}
+
+function shrinkBox(){
+    width-=10;
+    document.getElementById("box").style.setProperty('--dim', width+"px");
+}
 const btnDisplay = document.getElementById("btn-display");
 btnDisplay.onclick = displayEmotion;
 
@@ -130,3 +140,9 @@ btnCount.onclick = displayCount;
 
 const btnDoStuff = document.getElementById("btn-dostuff");
 btnDoStuff.onclick = doStuff;
+
+const btnGrowBox = document.getElementById("btn-grow");
+btnGrowBox.onclick = growBox;
+
+const btnShrinkBox = document.getElementById("btn-shrink");
+btnShrinkBox.onclick = shrinkBox;

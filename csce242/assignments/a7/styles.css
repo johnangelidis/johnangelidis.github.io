@@ -1,0 +1,50 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#333333;
+}
+#content{
+    display:flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align:center;
+}
+
+#stick-figure{
+    --dim:100px;
+    width:var(--dim);
+    height:var(--dim);
+}
+
+#figure{
+    --dim:100px;
+    --margin:0px
+    width:var(--dim);
+    height:var(--dim);
+    margin-left:var(--margin);
+    mix-blend-mode: multiply;
+}
+#running-man{
+    background:#3399FF;
+    margin:30px;
+    padding:10px;
+    width:40%;
+    height:30%;
+}
+
+#fund-raising{
+    background:#3399FF;
+    padding:10px;
+}
+
+#gradient{
+    --percentage:0;
+    --color2:255;
+    --color3:255;
+    border:solid black 2px;
+    height:350px;
+    width:85px;
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255, var(--color2), var(--color3), 1) var(--percentage), rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);    
+}
