@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#333333;
+}
+.hidden{
+    display: none;
+}
+#content{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+}
+
+.example{
+    background:#3399FF;
+    width:45%;
+    margin:10px;
+    margin:auto;
+    padding:10px;
+}
+
+.example h1{
+    text-align:center;
+    color:#333334
+}
+
+
+#btn-draw{
+    background:#333333;
+    color:#3399FF;
+    border-radius:6px;
+}
+
+#rainbow-section p{
+    margin:0;
+    color:#3399FF;
+}
