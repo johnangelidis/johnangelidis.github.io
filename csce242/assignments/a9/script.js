@@ -20,8 +20,12 @@ class Toy{
     }
 
     get ToyItem(){
-        let toyContainer = document.createElement("section");
+        let toyContainer = document.createElement("div");
         toyContainer.classList.add("container");
+
+        let overlayDiv = document.createElement("div");
+        overlayDiv.classList.add("middle");
+
         //picture
         let imgElem = document.createElement("img");
         imgElem.src= `images/${this.pic}`;
@@ -51,7 +55,10 @@ class Toy{
         liRatingElem.innerText = `Rating: ${this.rating} stars`;
         ulElem.append(liRatingElem);
 
+        overlayDiv.append(h2Elem);
+        overlayDiv.append(ulElem);
 
+        toyContainer.append(overlayDiv);
         return toyContainer;        
     }
 
