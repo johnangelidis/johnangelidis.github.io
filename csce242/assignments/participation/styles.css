@@ -1,0 +1,81 @@
+body{
+    background:#000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h3{
+    text-align:center;
+}
+#content{
+    background:#000000;
+}
+
+#breweries{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.brewery{
+    width:30%;
+    background:#DC9000;
+    box-shadow: 0 4px 8px 0 #504C49, 0 6px 20px 0 #504C49;
+    color:black;
+    margin: 10px;
+    border-radius:15px;
+
+}
+
+.bg{
+    background-image: url("images/Two-Beer-Glasses-with-Dark-Background.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+  
+.caption span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+li{
+    list-style:none;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.center{
+    padding-left:140px;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    background-color:black;
+    color:white;
+}
