@@ -1,0 +1,79 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#1F1E1F;
+    
+}
+
+h1{
+    color:white;
+    text-align:center;
+}
+
+#videogame-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.game{
+    margin:5px;
+    width:15%;
+    padding:10px;
+    border:2px solid white;
+    text-align:center;
+
+}
+
+.game:hover{
+    background:#262526;
+}
+
+.game a{
+    text-decoration:none;
+    color:#007AD8;
+}
+
+
+
+.hidden{
+    display:none;
+}
+
+input{
+    width:100%;
+}
+
+table td{
+    width:300px;
+}
+
+button{
+    width:40%;
+}
+
+#videogame-details{
+    width:50%;
+}
+
+
+.hide{
+    color: gray;
+}
+
+#main-content{
+    display:flex;
+    justify-content:center;
+}
+
+
+.main-section{
+    background:gray;
+    margin:10px;
+    width:30%;
+    padding:10px;
+    border-radius:3px;
+}
+
+#videogame-details{
+    width:30%;
+}
