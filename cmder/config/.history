@@ -1,0 +1,47 @@
+cd Documents/GitHub/csce242
+ls
+cd ThisPC/Documents/GitHub
+cd Desktop
+cd \Documents\GitHub
+clear
+cd Documents
+cd ..\..
+cd ..
+cd "New Folder\
+rm "New Folder\
+mkdir express-hello
+cd express-hello\
+..\
+cd ..\
+cd csce242\inclass\march31\express-hello\
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\a11
+mkdir soccer
+cd soccer
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\a11\soccer\
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\a12\
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\
+mkdir a13
+cd a13\
+npm init--yes
+npm init --y
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\a13\
+cd 
+cd ~
+cd C
+cd /
+mkdir data
+cd data
+mkdir db
+cd db
+mongod
+cd C:\Program Files\MongoDB\Server\4.2\bin
+mongo
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\a13
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\a12
+npm init --yes
+npm i express
+node index.js
+npm i mongoose
+npm i joi
+cd Documents\GitHub\johnangelidis.github.io\csce242\assignments\final-part1\
+node server.js
