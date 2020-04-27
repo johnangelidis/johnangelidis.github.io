@@ -1,0 +1,183 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url("https://johnangelidis.github.io/csce242/assignments/final-part2/images/galaxy.jpg");
+    padding:5px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+#book-list{
+    width:70%;
+    margin-left:80px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.book{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(217,197,193,1) 100%);
+    margin-left:10px;
+    padding:5px;
+    width:22%;
+    text-align:center;
+    height:20%;
+    border-radius: 10px 30px;
+    opacity:0.7;
+}
+
+
+
+.tab{
+    background-color:#A6756A;
+    border:none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 2px;
+    opacity:0.9
+}
+
+#open-add-form:focus{
+    background-color:#732727;
+    color: white;
+    outline:none;
+}
+
+#open-edit-form:focus{
+    background-color:#732727;
+    color: white;
+    outline:none;
+}
+
+.content{
+    background: #732727;
+    padding-left:10px;
+    width:23.9%;
+    height:30%;
+    border-radius: 2px;
+    opacity:0.9;
+    color:white;
+}
+
+.hide{
+    display:none;
+}
+
+#main-content p{
+    display: inline-block;
+}
+
+input{
+    float:right;
+    margin-top:16px;
+    margin-right:60px;
+}
+
+#txt-year, #txt-add-year{
+    width:40px;
+    margin-right:188px;
+}
+
+#txt-rating, #txt-add-rating{
+    width:30px;
+    margin-right:200px;
+}
+
+#book-list{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#main-content{
+    display:flex;
+    flex-direction: row;
+}
+
+img{
+    margin-left:200px;
+    width:750px;
+    height:370px;
+}
+
+#btn-add{
+    font-size:16px;
+    padding:3px 5px;
+    border:none;
+    background:#64991e;
+    border-radius:5px;
+}
+
+#btn-add:hover{
+    background:#507a18;
+}
+
+.btn-edit{
+    font-size:16px;
+    padding:3px 5px;
+    border:none;
+    background:dodgerblue;
+    border-radius:5px;
+}
+
+.btn-edit:hover{
+    background:royalblue;
+}
+
+.btn-delete{
+    font-size:16px;
+    padding:3px 5px;
+    border:none;
+    background:rgb(254, 0, 1);
+    border-radius:5px;
+}
+
+.btn-delete:hover{
+    background:#cb0000;
+}
+
+#btn-edit{
+    font-size:16px;
+    padding:3px 5px;
+    border:none;
+    background:orangered;
+    border-radius:5px;
+}
+
+#btn-edit:hover{
+    background:orange;
+}
+
+h3{
+    margin:0;
+}
+
+#book-section p {
+    margin:0;
+}
+
+.detailsDiv{
+    display:none;
+    background:#A6756A;
+    opacity:0.7;
+    border-radius:10px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+
+
+.book:hover .detailsDiv{
+    display:block;
+}
+
+
+button{
+    cursor:pointer;
+    outline:none;
+}

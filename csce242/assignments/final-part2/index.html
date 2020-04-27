@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Book Database</h1>
+        <button class="tab" id="open-add-form" onclick="switchDiv(1);">Add a Book</button>
+        <button class="tab" id="open-edit-form" onclick="switchDiv(2);">Edit / View Book Details</button>
+        <div id="main-content">
+        <div class="content" id="show_1">
+            <!--<span id="book-id" class="hide"></span>-->
+            <p>Title:</p>
+            <input id="txt-add-title">
+            <br>
+            <p>Author:</p>
+            <input id="txt-add-author">
+            <br>
+            <p>Genre:</p>
+            <input id="txt-add-genre">
+            <br>
+            <p>Year Published:</p>
+            <input id="txt-add-year" maxlength="4">
+            <br>
+            <p>Publisher:</p>
+            <input id="txt-add-publisher">
+            <br>
+            <p>Rating:</p>
+            <input id="txt-add-rating" maxlength="2">
+            <br>
+            <br>
+            <button class="addBtn" id="btn-add"><i class="fas fa-plus"></i>  Add to Database</button>
+            <br>
+            <br>
+        </div>
+
+        <div class="content hide" id="show_2">
+            <span id="book-id" class="hide"></span>
+            <p>Title:</p>
+            <input id="txt-title">
+            <br>
+            <p>Author:</p>
+            <input id="txt-author">
+            <br>
+            <p>Genre:</p>
+            <input id="txt-genre">
+            <br>
+            <p>Year Published:</p>
+            <input id="txt-year" maxlength="4">
+            <br>
+            <p>Publisher:</p>
+            <input id="txt-publisher">
+            <br>
+            <p>Rating:</p>
+            <input id="txt-rating" maxlength="3">
+            <br>
+            <br>
+            <button id="btn-edit"><i class="fas fa-check"></i>  Apply Changes</button>
+            <br>
+            <br>
+        </div>
+        <div id="book-list">
+           
+        </div>
+    </div>
+        
+        
+    </body>
+</html>
